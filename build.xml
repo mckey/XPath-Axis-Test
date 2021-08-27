@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="build" basedir=".">
+    <property name="name" value="TestXSLT"/>
+    <property name="build" location="${basedir}/build"/>
+    <path id="saxon.dir">
+        <fileset dir="${basedir}\lib" includes="*.jar"/>
+    </path>
+    <target name="build" description="Builds the application">
+       <xslt in="${basedir}\src\family.xml" out="${build}/family.html" style="${basedir}\styles\family.xsl">
+           <factory name="net.sf.saxon.TransformerFactoryImpl" />
+           <classpath refid="saxon.dir"/>
+       </xslt>
+    </target>
+</project>

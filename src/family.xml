@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<family>
+    <person sex="female" name="Elizabeth Alexandra Mary" title="Queen" age="95">
+        <person sex="female" name="Diana Frances Spencer" title="Princess" age="60">
+            <person sex="female" name="Beatrice Elizabeth Mary" title="Princess" age="52">
+                <person sex="female" name="Louise Alice Elizabeth Mary" title="Princess" age="17"/>
+            </person>
+            <person sex="male" name="Edward Antony Richard Louis" title="Duke" age="42">
+                <person sex="male" name="James Alexander Philip Theo" title="Duke" age="17"/>
+            </person>
+            <person sex="male" name="William Arthur Philip Louis" title="Prince" age="39">
+                <person sex="male" name="George Alexander Louis" title="Prince" age="8"/>
+                <person sex="female" name="Charlotte Elizabeth Diana" title="Princess" age="6"/>
+                <person sex="male" name="Louis Arthur Charles" title="Prince" age="3"/>
+            </person>
+            <person sex="male" name="Henry Charles Albert David" title="Prince" age="36">
+                <person sex="male" name="Archie Harrison" title="Prince" age="2"/>
+                <person sex="female" name="Lilibet Diana" title="Princess" age="0"/>
+            </person>
+        </person>
+    </person>
+</family>
